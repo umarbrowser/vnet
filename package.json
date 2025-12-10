@@ -1,0 +1,37 @@
+{
+  "name": "vanet-blockchain-ml",
+  "version": "1.0.0",
+  "description": "Blockchain-based misbehavior detection in VANETs using ML",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:goerli": "hardhat run scripts/deploy.js --network goerli",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "node": "hardhat node",
+    "server": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "blockchain",
+    "vanet",
+    "machine-learning",
+    "ethereum",
+    "smart-contracts"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.21.2",
+    "web3": "^4.2.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "hardhat": "^2.19.0"
+  }
+}

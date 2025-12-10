@@ -1,0 +1,29 @@
+{
+  "network": {
+    "active": "local",
+    "local": "http://127.0.0.1:8545",
+    "goerli": "",
+    "sepolia": ""
+  },
+  "contract": {
+    "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "abi_path": "artifacts/contracts/MisbehaviorDetection.sol/MisbehaviorDetection.json"
+  },
+  "account": {
+    "private_key": ""
+  },
+  "ml": {
+    "model_type": "dnn",
+    "confidence_threshold": 5000,
+    "models_path": "models",
+    "dnn_backend": "sklearn_mlp"
+  },
+  "detection": {
+    "batch_size": 10,
+    "enable_blockchain": true,
+    "min_confidence_for_logging": 5000
+  }
+}
+
+
+
